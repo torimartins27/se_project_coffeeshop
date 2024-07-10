@@ -1,16 +1,11 @@
-# Triple Peaks Coffee Shop
+# Project 1: Triple Peaks Library
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+The Triple Peaks Library webpage is the first project in the Software Engineering
+program at TripleTen. It was created using HTML and CSS, based on a design brief.
 
 ## Project features
 
 - Semantic HTML5
 - Flexbox
 - Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
-
-## Plan on improving the project
-
-Add your ideas here :)
+- Vertical stacking with z-index
