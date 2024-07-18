@@ -106,7 +106,60 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="book"></section>
+        <section class="reservation" id="book">
+          <h1 class="reservation__title">Book a table</h1>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="guestsnum" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                id="guestsnum"
+                name="guestsnum"
+                placeholder="1-8"
+                required
+              />
+              <label for="datetime" class="form__label">Date & time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="datetime"
+                name="datetime"
+                required
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="checkbox-container">
+                <input type="checkbox" class="invisible-checkbox" />
+                <span class="visible-checkbox"></span>I agree with the terms of
+                use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
       </main>
