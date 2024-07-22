@@ -1,4 +1,5 @@
 .header {
+  padding: 30px 80px 40px;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -9,14 +10,12 @@
   min-height: 720px;
   min-width: 800px;
   height: 100vh;
-  width: 100vw; /* Ensure the header takes up the full width */
   position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
   max-width: 729px;
-  padding-left: 80px;
-  padding-top: 213px;
   font-family: "Inter", Arial;
   font-style: normal;
   font-weight: 500;
@@ -24,6 +23,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   z-index: 2;
+  margin-top: 183px;
 }
 
 .header__span-accent {
@@ -37,10 +37,7 @@
 }
 
 .header__description {
-  display: block;
   max-width: 683px;
-  padding-top: 28px;
-  padding-left: 80px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
@@ -60,8 +57,9 @@
 
 .header__footer {
   margin-top: auto;
-  padding-bottom: 40px;
   width: 100%;
+  height: auto;
+  bottom: 0;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -69,7 +67,6 @@
 }
 
 .header__hours {
-  padding-left: 80px;
   font-family: "Inter", Arial;
   font-style: normal;
   font-weight: 500;
@@ -79,7 +76,6 @@
 }
 
 .header__address {
-  padding-right: 80px;
   font-family: "Inter", Arial;
   font-style: normal;
   font-weight: 500;
