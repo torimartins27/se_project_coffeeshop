@@ -58,11 +58,12 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__hours">
-            Hours: <br />Monday - Friday (10:00 - 1900) <br />Saturday - Sunday
-            (11:00 - 1800)
-          </p>
-          <p class="header__address">
+          <div>
+            <p class="header__paragraphs">Hours:</p>
+            <p class="header__paragraphs">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraphs">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraphs">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -71,10 +72,10 @@
         <section class="recipes" id="recipes">
           <div class="recipes__content">
             <h2 class="recipes__title">Recipes</h2>
-            <h3 class="recipes__subtitle">
+            <p class="recipes__subtitle">
               Check out some recipes we've collected for your home-brewing
               convenience:
-            </h3>
+            </p>
             <div class="recipes__videos">
               <div>
                 <iframe
@@ -151,10 +152,10 @@
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
             <fieldset class="form__fieldset">
-              <label class="checkbox-container">
-                <input type="checkbox" class="invisible-checkbox" />
-                <span class="visible-checkbox"></span>I agree with the terms of
-                use
+              <label class="form__checkbox-container">
+                <input type="checkbox" class="form__invisible-checkbox" />
+                <span class="form__visible-checkbox"></span>I agree with the
+                terms of use
               </label>
             </fieldset>
           </form>
@@ -260,7 +261,7 @@
           <img
             src="./images/logo_coffeeshop_light.svg"
             alt="White TripleTen logo"
-            class="footer_logo"
+            class="footer__logo"
           />
           <div>
             <h3 class="footer__social-heading" id="contacts">Social Media</h3>
