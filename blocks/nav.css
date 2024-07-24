@@ -1,14 +1,9 @@
 .nav {
   display: flex;
-  justify-content: space-between;
-}
-
-.nav__logo {
-  position: relative;
-  top: 30px;
-  left: 30px;
-  width: 105px;
-  height: 39px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 80px;
+  padding-top: 30px;
 }
 
 .nav__links {
@@ -29,6 +24,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
+  transition: color 0.2s linear;
 }
 
 .nav__link:hover {

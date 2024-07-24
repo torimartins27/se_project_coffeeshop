@@ -14,7 +14,7 @@
 }
 
 .footer__social-heading {
-  margin: auto;
+  margin: 0 0 20px;
   color: #fff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -67,6 +67,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin-top: 108px;
-  margin-bottom: 60px;
+  margin: 0;
 }

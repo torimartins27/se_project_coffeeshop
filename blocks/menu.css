@@ -16,16 +16,19 @@
   line-height: 52px;
   color: #000000;
   text-align: center;
-  margin: 0 0 24px;
+  margin: 0 auto;
+  max-width: 780px;
+  padding-top: 100px;
 }
 
 .menu__subtitle {
   text-align: center;
-  margin: 0 0 100px;
+  margin: 24px auto 0;
   color: #000000;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 30px;
+  max-width: 780px;
 }
 
 .menu__cards {
@@ -33,7 +36,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
-  padding: 0;
-  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   list-style-type: none;
 }
