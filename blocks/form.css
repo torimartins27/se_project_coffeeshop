@@ -10,13 +10,13 @@
 
 .form__label {
   display: block;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  padding-top: 32px;
-  padding-bottom: 8px;
+
+  margin-bottom: 8px;
 }
 
 .form__input::placeholder {
@@ -30,7 +30,13 @@
 }
 .form__checkbox-container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__invisible-checkbox {
@@ -42,14 +48,12 @@
 }
 
 .form__visible-checkbox {
-  display: inline-block;
   width: 20px;
   height: 20px;
   background-color: white;
-  border: 2px solid #2f80ed;
+  border: 1px solid #838383;
   border-radius: 2px;
   margin-right: 12px;
-  align-items: center;
 }
 
 .form__invisible-checkbox:checked + .form__visible-checkbox {
@@ -99,6 +103,5 @@
   color: #838383;
   display: block;
   box-sizing: border-box;
-  margin-top: 8px;
   margin-bottom: 32px;
 }

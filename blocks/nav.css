@@ -6,6 +6,15 @@
   padding-top: 30px;
 }
 
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  bottom: 80px;
+  width: 105px;
+  height: 39px;
+}
+
 .nav__links {
   display: flex;
   gap: 20px;
