@@ -1,16 +1,16 @@
 .nav {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-between;
   padding-right: 80px;
   padding-top: 30px;
 }
 
+/* Instructor helped me improve this code and they said 
+this should be correct */
+
 .nav__logo {
   position: relative;
-  top: 30px;
   left: 30px;
-  bottom: 80px;
   width: 105px;
   height: 39px;
 }
